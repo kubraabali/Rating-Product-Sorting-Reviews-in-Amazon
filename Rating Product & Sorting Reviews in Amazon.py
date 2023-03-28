@@ -11,7 +11,7 @@ pd.set_option("display.width", 200)
 df= pd.read_csv("datasets/amazon_review.csv")
 df.head()
 
-# Average Rating'i Güncel Yorumlara Göre Hesaplayınız ve Var Olan Average Rating ile Kıyaslayınız.
+# Average Rating'i Güncel Yorumlara Göre Hesaplamak
 
 # Average Rate
 df["overall"].mean() #4.587589013224822
